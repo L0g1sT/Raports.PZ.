@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2023-04-03T12:41:01.759Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="-D-L3_SI-TJdIdsfJLCW" version="21.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-04T10:57:34.408Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="HVWovkZ_XUWqkl1RZgAm" version="21.1.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="3695" dy="2761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2876" dy="2295" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="1U3NoZP2p2XrQ27DUTiQ-24" value="Маршрут" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-280" y="263" width="210" height="280" as="geometry" />
+          <mxGeometry x="-280" y="263" width="210" height="300" as="geometry" />
         </mxCell>
         <mxCell id="1U3NoZP2p2XrQ27DUTiQ-25" value="+Код_Маршрута" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="1U3NoZP2p2XrQ27DUTiQ-24" vertex="1">
           <mxGeometry y="30" width="210" height="30" as="geometry" />
@@ -28,11 +28,11 @@
         <mxCell id="1U3NoZP2p2XrQ27DUTiQ-35" value="+Состояние_Маршрута" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="1U3NoZP2p2XrQ27DUTiQ-24" vertex="1">
           <mxGeometry y="210" width="210" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="1U3NoZP2p2XrQ27DUTiQ-36" value="+Выбор типа маршрута&lt;br&gt;+Выбор состояния маршрута" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1U3NoZP2p2XrQ27DUTiQ-24" vertex="1">
-          <mxGeometry y="240" width="210" height="40" as="geometry" />
+        <mxCell id="1U3NoZP2p2XrQ27DUTiQ-36" value="+Выбор типа маршрута&lt;br&gt;+Выбор состояния маршрута&lt;br&gt;+Удаление/Добавление Маршрута" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1U3NoZP2p2XrQ27DUTiQ-24" vertex="1">
+          <mxGeometry y="240" width="210" height="60" as="geometry" />
         </mxCell>
         <mxCell id="1U3NoZP2p2XrQ27DUTiQ-37" value="Пассажир" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="860" y="390" width="210" height="180" as="geometry" />
+          <mxGeometry x="860" y="330" width="210" height="180" as="geometry" />
         </mxCell>
         <mxCell id="1U3NoZP2p2XrQ27DUTiQ-38" value="+Код_Пассажира" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="1U3NoZP2p2XrQ27DUTiQ-37" vertex="1">
           <mxGeometry y="30" width="210" height="30" as="geometry" />
@@ -73,7 +73,7 @@
         <mxCell id="1U3NoZP2p2XrQ27DUTiQ-53" value="+Страховка" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="1U3NoZP2p2XrQ27DUTiQ-46" vertex="1">
           <mxGeometry y="210" width="210" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="1U3NoZP2p2XrQ27DUTiQ-54" value="+Выбор Состояния Автопарка&lt;br&gt;+Выбор Страховки" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1U3NoZP2p2XrQ27DUTiQ-46" vertex="1">
+        <mxCell id="1U3NoZP2p2XrQ27DUTiQ-54" value="+Выбор Состояния Автопарка&lt;br&gt;+Выбор Страховки&lt;br&gt;+Удаление/Добавление Автопарка" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1U3NoZP2p2XrQ27DUTiQ-46" vertex="1">
           <mxGeometry y="240" width="210" height="40" as="geometry" />
         </mxCell>
         <mxCell id="1U3NoZP2p2XrQ27DUTiQ-55" value="Билет" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
@@ -97,7 +97,7 @@
         <mxCell id="1U3NoZP2p2XrQ27DUTiQ-61" value="+Месяц" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="1U3NoZP2p2XrQ27DUTiQ-55" vertex="1">
           <mxGeometry y="180" width="210" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="1U3NoZP2p2XrQ27DUTiQ-63" value="+Выбор Месяца" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1U3NoZP2p2XrQ27DUTiQ-55" vertex="1">
+        <mxCell id="1U3NoZP2p2XrQ27DUTiQ-63" value="+Выбор Месяца&lt;br&gt;+Удаление/Добавление Билета" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1U3NoZP2p2XrQ27DUTiQ-55" vertex="1">
           <mxGeometry y="210" width="210" height="40" as="geometry" />
         </mxCell>
         <mxCell id="1U3NoZP2p2XrQ27DUTiQ-64" value="Автобус" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
@@ -127,7 +127,7 @@
         <mxCell id="1U3NoZP2p2XrQ27DUTiQ-74" value="+Активность_Автобуса" style="text;whiteSpace=wrap;html=1;" parent="1U3NoZP2p2XrQ27DUTiQ-64" vertex="1">
           <mxGeometry y="240" width="210" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="1U3NoZP2p2XrQ27DUTiQ-72" value="+Выбор Состояния_Автобуса&lt;br&gt;+Выбор Этажности_Автобуса&lt;br&gt;+Выбор Активности_Автобуса" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1U3NoZP2p2XrQ27DUTiQ-64" vertex="1">
+        <mxCell id="1U3NoZP2p2XrQ27DUTiQ-72" value="+Выбор Состояния_Автобуса&lt;br&gt;+Выбор Этажности_Автобуса&lt;br&gt;+Выбор Активности_Автобуса&lt;br&gt;+Удаление/Добавление Автобуса" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1U3NoZP2p2XrQ27DUTiQ-64" vertex="1">
           <mxGeometry y="280" width="210" height="80" as="geometry" />
         </mxCell>
         <mxCell id="1U3NoZP2p2XrQ27DUTiQ-76" value="Водитель" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
@@ -157,7 +157,7 @@
         <mxCell id="1U3NoZP2p2XrQ27DUTiQ-84" value="+Семейное_Положение" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="1U3NoZP2p2XrQ27DUTiQ-76" vertex="1">
           <mxGeometry y="240" width="210" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="1U3NoZP2p2XrQ27DUTiQ-85" value="+Выбор Стажа&lt;br&gt;+Выбор Пола&lt;br&gt;+Выбор Семейного_Положения" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1U3NoZP2p2XrQ27DUTiQ-76" vertex="1">
+        <mxCell id="1U3NoZP2p2XrQ27DUTiQ-85" value="+Выбор Стажа&lt;br&gt;+Выбор Пола&lt;br&gt;+Выбор Семейного_Положения&lt;br&gt;+Удаление/Добавление Водителя" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1U3NoZP2p2XrQ27DUTiQ-76" vertex="1">
           <mxGeometry y="270" width="210" height="80" as="geometry" />
         </mxCell>
         <mxCell id="1U3NoZP2p2XrQ27DUTiQ-86" value="Рейс" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
@@ -238,17 +238,18 @@
               <mxPoint x="10" y="902" />
               <mxPoint x="10" y="1060" />
               <mxPoint x="1210" y="1060" />
-              <mxPoint x="1210" y="435" />
+              <mxPoint x="1210" y="375" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="ZH2lWxBBX7NL9M_eEVf8-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="1U3NoZP2p2XrQ27DUTiQ-25" target="1U3NoZP2p2XrQ27DUTiQ-42" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
+              <mxPoint x="-280" y="307" />
               <mxPoint x="-420" y="307" />
               <mxPoint x="-420" y="1120" />
               <mxPoint x="1120" y="1120" />
-              <mxPoint x="1120" y="555" />
+              <mxPoint x="1120" y="495" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -415,7 +416,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="d-Auq0XMfQ9gvV_dyNVw-203" value="Справочник МС" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=0;strokeColor=default;fontSize=16;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-280" y="633" width="210" height="90" as="geometry" />
+          <mxGeometry x="-280" y="648" width="210" height="90" as="geometry" />
         </mxCell>
         <mxCell id="d-Auq0XMfQ9gvV_dyNVw-204" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;fontSize=16;" parent="d-Auq0XMfQ9gvV_dyNVw-203" vertex="1">
           <mxGeometry y="30" width="210" height="30" as="geometry" />
@@ -502,7 +503,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="d-Auq0XMfQ9gvV_dyNVw-235" value="Справочник Маршрут Тип" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=0;strokeColor=default;fontSize=16;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-280" y="543" width="210" height="90" as="geometry" />
+          <mxGeometry x="-280" y="558" width="210" height="90" as="geometry" />
         </mxCell>
         <mxCell id="d-Auq0XMfQ9gvV_dyNVw-236" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;fontSize=16;" parent="d-Auq0XMfQ9gvV_dyNVw-235" vertex="1">
           <mxGeometry y="30" width="210" height="30" as="geometry" />
@@ -695,6 +696,12 @@
           <mxGeometry x="47" width="163" height="30" as="geometry">
             <mxRectangle width="163" height="30" as="alternateBounds" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="WLtkCcwSyqyjZlyL2WTW-0" value="+Удаление/Добавление Пассажира" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="860" y="510" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WLtkCcwSyqyjZlyL2WTW-1" value="+Удаление/Добавление Рейса" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="240" y="540" width="210" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
