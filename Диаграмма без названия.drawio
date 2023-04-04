@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-04T12:51:20.819Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="hJSL-5lZlIjG8lx0xC2t" version="21.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-04T12:53:13.546Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="zdvPAqXol8MTZR6950lR" version="21.1.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2876" dy="2295" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -535,7 +535,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="d-Auq0XMfQ9gvV_dyNVw-161" value="Справочник месяц" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=0;strokeColor=default;fontSize=16;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-640" y="1040" width="210" height="90" as="geometry" />
+          <mxGeometry x="-720" y="910" width="210" height="90" as="geometry" />
         </mxCell>
         <mxCell id="d-Auq0XMfQ9gvV_dyNVw-162" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;fontSize=16;" parent="d-Auq0XMfQ9gvV_dyNVw-161" vertex="1">
           <mxGeometry y="30" width="210" height="30" as="geometry" />
@@ -576,7 +576,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="d-Auq0XMfQ9gvV_dyNVw-287" value="Справочник Автопарк с" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=0;strokeColor=default;fontSize=16;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="1260" y="740" width="210" height="90" as="geometry" />
+          <mxGeometry x="1350" y="680" width="210" height="90" as="geometry" />
         </mxCell>
         <mxCell id="d-Auq0XMfQ9gvV_dyNVw-288" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;fontSize=16;" parent="d-Auq0XMfQ9gvV_dyNVw-287" vertex="1">
           <mxGeometry y="30" width="210" height="30" as="geometry" />
@@ -605,7 +605,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="d-Auq0XMfQ9gvV_dyNVw-294" value="Справочник Автопарк стр" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=0;strokeColor=default;fontSize=16;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="1270" y="870" width="210" height="100" as="geometry" />
+          <mxGeometry x="1360" y="810" width="210" height="100" as="geometry" />
         </mxCell>
         <mxCell id="d-Auq0XMfQ9gvV_dyNVw-295" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;fontSize=16;" parent="d-Auq0XMfQ9gvV_dyNVw-294" vertex="1">
           <mxGeometry y="30" width="210" height="40" as="geometry" />
